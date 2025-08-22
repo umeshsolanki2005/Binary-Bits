@@ -1,3 +1,33 @@
+<<<<<<< HEAD
+# Dhara Folk Art Platform - Backend
+
+## Setup Instructions
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Configure environment:**
+   - Copy `config.env` and update with your MongoDB connection string
+   - Update JWT_SECRET if needed
+
+3. **Start MongoDB:**
+   - Ensure MongoDB is running on your system
+   - Or use MongoDB Atlas cloud service
+
+4. **Seed the database (optional):**
+   ```bash
+   node seeder.js
+   ```
+
+5. **Run the server:**
+   ```bash
+   npm run dev
+   ```
+
+## API Endpoints
+=======
 # धारा (Dhara) - Folk Art Platform
 
 A comprehensive platform designed to preserve, showcase, and promote traditional Indian folk art and culture. Built with modern web technologies to connect artists with art lovers worldwide.
@@ -110,6 +140,7 @@ dhara/
 ```
 
 ## 🔐 API Endpoints
+>>>>>>> dc9a3695228a9ca483961078f606c15e9972625f
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -124,6 +155,12 @@ dhara/
 - `GET /api/artists` - Get all artists
 - `GET /api/artists/:id` - Get artist details with artworks
 
+<<<<<<< HEAD
+## Sample Users (after seeding)
+- **Rajesh Vangad** (rajesh@example.com / password123) - Warli artist
+- **Sita Devi** (sita@example.com / password123) - Madhubani artist  
+- **Bhuri Bai** (bhuri@example.com / password123) - Pithora artist
+=======
 ## 👥 Sample Users (After Seeding)
 
 | Email | Password | Role | Art Form |
@@ -214,3 +251,4 @@ This project is part of the Dhara Folk Art Platform initiative, dedicated to pre
 ---
 
 **धारा** - Preserving the Flow of Traditional Folk Art through Digital Innovation
+>>>>>>> dc9a3695228a9ca483961078f606c15e9972625f
